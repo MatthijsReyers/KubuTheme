@@ -257,7 +257,7 @@
 </linearGradient>
 <polygon class="st5" points="60.2,32 46.2,32.1 41.5,27.4 32.1,41.4 22.8,22.7 18.1,32 15.7,32 3.8,32 3.4,50.5 4.6,53.2 6.3,54.4 
 	57.7,54.2 59.3,53.4 60.4,51.5 "/>
-<image style="overflow:visible;" width="58" height="22" xlink:href="7E445217.png"  transform="matrix(1 0 0 1 3 21)">
+<image style="overflow:visible;" width="58" height="22" xlink:href="7E445214.png"  transform="matrix(1 0 0 1 3 21)">
 </image>
 <linearGradient id="Border_1_" gradientUnits="userSpaceOnUse" x1="32" y1="11.075" x2="32" y2="57.4216" gradientTransform="matrix(1 0 0 -1 0 66)">
 	<stop  offset="0" style="stop-color:#6E6E6E"/>
@@ -271,10 +271,4 @@
 <path id="Border" class="st6" d="M57.6,10.7c1,0,1.8,0.8,1.8,1.8v39.1c0,1-0.8,1.8-1.8,1.8H6.4c-1,0-1.8-0.8-1.8-1.8V12.5
 	c0-1,0.8-1.8,1.8-1.8H57.6 M57.6,8.7H6.4c-2.1,0-3.8,1.7-3.8,3.8v39.1c0,2.1,1.7,3.8,3.8,3.8h51.2c2.1,0,3.8-1.7,3.8-3.8V12.5
 	C61.4,10.4,59.7,8.7,57.6,8.7L57.6,8.7z"/>
-<g>
-	<g>
-		
-			<image style="overflow:visible;" width="56.4" height="20.3" xlink:href="8E3713D4.png"  transform="matrix(1 0 0 1 43.6936 -16.6161)"/>
-	</g>
-</g>
 </svg>
