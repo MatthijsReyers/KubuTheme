@@ -7,19 +7,19 @@
 	.st1{fill:url(#SVGID_2_);}
 	.st2{fill:#FFFFFF;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="25.4458" y1="64.3038" x2="38.2273" y2="1.6875">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="11.5077" y1="60.9595" x2="47.5077" y2="10.1208">
 	<stop  offset="0" style="stop-color:#FDB15A"/>
 	<stop  offset="1" style="stop-color:#F2723C"/>
 </linearGradient>
 <path class="st0" d="M55.2,18.7v39.4c0,2.1-1.7,3.8-3.8,3.8H12.7c-2.1,0-3.8-1.7-3.8-3.8V5.8c0-2.1,1.7-3.8,3.8-3.8h25.7L55.2,18.7
 	L55.2,18.7z"/>
-<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="34.9323" y1="19.8747" x2="64.9968" y2="-4.2543">
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="34.9323" y1="46.1253" x2="64.9968" y2="70.2543" gradientTransform="matrix(1 0 0 -1 0 66)">
 	<stop  offset="0" style="stop-color:#FDB15A"/>
 	<stop  offset="1" style="stop-color:#F2723C"/>
 </linearGradient>
 <path class="st1" d="M55.2,18.7H41.9c-1.9,0-3.5-1.6-3.5-3.5V2L55.2,18.7z"/>
 <g>
-	<path class="st2" d="M40,33.8V25c-3.9,0.5-6.9,3.8-6.9,7.9c0,4.4,3.6,8,8,8c4.1,0,7.4-3,7.9-7H40z"/>
+	<path class="st2" d="M40,33.8V25c-3.9,0.5-6.9,3.8-6.9,7.9c0,4.4,3.6,8,8,8c4.1,0,7.4-3,7.9-7h-9V33.8z"/>
 	<path class="st2" d="M42,25v6.9h6.9C48.5,28.3,45.6,25.4,42,25z"/>
 </g>
 <g>
