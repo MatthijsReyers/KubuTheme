@@ -6,28 +6,42 @@
 	.st0{fill:url(#SVGID_1_);}
 	.st1{fill:url(#SVGID_2_);}
 	.st2{fill:#FFFFFF;}
+	.st3{fill:url(#SVGID_3_);}
+	.st4{fill:none;stroke:#5C95E0;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <g>
-	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="7.4244" y1="61.3974" x2="48.9406" y2="11.7522">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="13.6244" y1="4.6026" x2="55.1406" y2="54.2478" gradientTransform="matrix(1 0 0 -1 0 66)">
 		<stop  offset="0" style="stop-color:#6DA9F8"/>
 		<stop  offset="0.3966" style="stop-color:#63A4F8"/>
 		<stop  offset="1" style="stop-color:#5688CB"/>
 	</linearGradient>
-	<path class="st0" d="M55.2,18.7v39.4c0,2.1-1.7,3.8-3.8,3.8H12.7c-2.1,0-3.8-1.7-3.8-3.8V5.8c0-2.1,1.7-3.8,3.8-3.8h25.7L55.2,18.7
-		L55.2,18.7z"/>
-	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="38.7745" y1="18.5565" x2="64.5164" y2="-7.7661">
+	<path class="st0" d="M61.4,18.7v39.4c0,2.1-1.7,3.8-3.8,3.8H18.9c-2.1,0-3.8-1.7-3.8-3.8V5.8c0-2.1,1.7-3.8,3.8-3.8h25.7L61.4,18.7
+		L61.4,18.7z"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="44.9745" y1="47.4435" x2="70.7164" y2="73.7661" gradientTransform="matrix(1 0 0 -1 0 66)">
 		<stop  offset="0" style="stop-color:#75ACF8"/>
 		<stop  offset="0.5558" style="stop-color:#6BA2ED"/>
 		<stop  offset="1" style="stop-color:#6299E4"/>
 	</linearGradient>
-	<path class="st1" d="M55.2,18.7H41.9c-1.9,0-3.5-1.6-3.5-3.5V2L55.2,18.7z"/>
+	<path class="st1" d="M61.4,18.7H48.1c-1.9,0-3.5-1.6-3.5-3.5V2L61.4,18.7z"/>
 	<g>
-		<rect x="15.1" y="24.9" class="st2" width="19.9" height="2"/>
-		<rect x="15.1" y="31.9" class="st2" width="19.9" height="2"/>
-		<rect x="15.1" y="38.8" class="st2" width="33.9" height="2"/>
-		<rect x="15.1" y="45.8" class="st2" width="33.9" height="2"/>
-		<rect x="15.1" y="52.7" class="st2" width="33.9" height="2"/>
+		<rect x="21.3" y="24.9" class="st2" width="19.9" height="2"/>
+		<rect x="21.3" y="31.9" class="st2" width="19.9" height="2"/>
+		<rect x="21.3" y="38.8" class="st2" width="33.9" height="2"/>
+		<rect x="21.3" y="45.8" class="st2" width="33.9" height="2"/>
+		<rect x="21.3" y="52.7" class="st2" width="33.9" height="2"/>
 	</g>
-	<rect x="40" y="24.9" class="st2" width="9" height="9"/>
+	<rect x="46.2" y="24.9" class="st2" width="9" height="9"/>
 </g>
+<radialGradient id="SVGID_3_" cx="19.1935" cy="30.129" r="38.6712" gradientUnits="userSpaceOnUse">
+	<stop  offset="0.1508" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.3182" style="stop-color:#F4F5F5"/>
+	<stop  offset="0.6089" style="stop-color:#D8D8DB"/>
+	<stop  offset="0.9862" style="stop-color:#AAABB0"/>
+	<stop  offset="0.9944" style="stop-color:#A9AAAF"/>
+</radialGradient>
+<path class="st3" d="M31.6,48.8H7.1c-2.5,0-4.5-2-4.5-4.5V19.8c0-2.5,2-4.5,4.5-4.5h24.5c2.5,0,4.5,2,4.5,4.5v24.5
+	C36.1,46.7,34.1,48.8,31.6,48.8z"/>
+<path class="st4" d="M9.4,24.5v15l10-8.7l10,8.7v-15"/>
 </svg>
