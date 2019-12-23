@@ -9,10 +9,12 @@
 	.st3{fill:url(#SVGID_3_);}
 	.st4{fill:none;stroke:#19C247;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="21.6286" y1="70.1427" x2="55.1125" y2="-6.6961">
-	<stop  offset="0" style="stop-color:#23C24E"/>
-	<stop  offset="0.417" style="stop-color:#13C243"/>
-	<stop  offset="0.9307" style="stop-color:#138C2E"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="19.6257" y1="63.4829" x2="63.0774" y2="-9.9687">
+	<stop  offset="0" style="stop-color:#2BC25B"/>
+	<stop  offset="0.294" style="stop-color:#29BF58"/>
+	<stop  offset="0.5502" style="stop-color:#25B44F"/>
+	<stop  offset="0.7914" style="stop-color:#1DA240"/>
+	<stop  offset="1" style="stop-color:#138C2E"/>
 </linearGradient>
 <path class="st0" d="M61.4,19.3v38.3c0,2.1-1.7,3.8-3.8,3.8H18.9c-2.1,0-3.8-1.7-3.8-3.8V6.4c0-2.1,1.7-3.8,3.8-3.8h25.7L61.4,19.3z
 	"/>
