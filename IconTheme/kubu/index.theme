@@ -4,7 +4,6 @@ Comment=Kubu is a minimalist icon pack created by Matthijs Reyers.
 Inherits= McMojave-circle, Breeze, Numix-Circle-Light, Adwaita, hicolor
 Example=folder
 
-
 # KDE/Plasma Stuff
 DisplayDepth=32
 LinkOverlay=link_overlay
@@ -26,9 +25,27 @@ FollowsColorScheme=true
 KDE-Extensions=.svg
 
 #Directory list
-Directories=apps/scalable
+Directories=
+    apps/scalable,
+    system/scalable,
+    system/links,
+    actions/scalable
 
 [apps/scalable]
+Size=64
+Context=Applications
+MinSize=16
+MaxSize=1024
+Type=Scalable
+
+[system/scalable]
+Size=64
+Context=Applications
+MinSize=16
+MaxSize=1024
+Type=Scalable
+
+[system/links]
 Size=64
 Context=Applications
 MinSize=16
