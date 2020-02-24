@@ -55,6 +55,10 @@ icons = {
         "google-chrome-beta.svg",
         "googlechrome.svg",
         "google-chrome-unstable.svg"
+    ],
+    "vlc":[
+        "org.videolan.VLC.svg",
+        "Vlc.svg"
     ]
 }
 
