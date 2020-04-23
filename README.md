@@ -2,4 +2,4 @@
 Kubu is a minimalistic KDE theme.
 
 
-<h1 style="color:red;">Test!</h1>
+<h1 color="red">Test!</h1>
