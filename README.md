@@ -1,7 +1,7 @@
 # KubuTheme
 Kubu is a minimalistic KDE theme.
 
-Dark color: #2b2b2b 
+Dark color: #1e1e1e 
 
 Light color: #363636
 
