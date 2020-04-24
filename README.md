@@ -7,6 +7,6 @@ Dark color pallet:
   - Even Lighter variant: #2b2b2b
   - Lighter still variant: #353535
 
-Light color: #363636
+Light color: #353535
 
 <h1 color="red">Test!</h1>
