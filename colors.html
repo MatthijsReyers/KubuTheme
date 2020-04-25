@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kubu Theme color guidelines</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+        
+        <style>
+            body {
+                background-color: #9c9c9c;
+                font-family: 'Open Sans', sans-serif;
+                color:#1e1e1e;
+            }
+
+            h1 {
+                text-align: center;
+                width: 80vw;
+                border-bottom: #1e1e1e 3px solid;
+                margin: 0 auto;
+                margin-top: 10px;
+                margin-bottom: 8px;
+            }
+
+            .light {
+                color: #1a1a1a !important;
+            }
+
+            .color-block {
+                width: 100px;
+                height: 100px;
+                display: inline-flex;
+                color: #fff;
+                align-items: center;
+                justify-content: center;
+
+                font-weight: 300;
+                font-family: 'Source Code Pro', monospace;  
+                font-size: 1.3em;
+                text-transform: uppercase;
+            }
+
+            th {
+                text-decoration: none;
+                font-weight: 100;
+            }
+
+            th:last-of-type {
+                text-align: left;
+            }
+        </style>
+
+        <script>
+            window.onload = () => {
+                let elements = document.getElementsByClassName('color-block');
+                for (let element of elements)
+                    element.onclick = () => {
+                        el = document.createElement('textarea');
+                        el.value = element.innerHTML;
+                        document.body.appendChild(el);
+                        el.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(el);
+                    }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Background colors.</h1>
+        <table>
+            <tr>
+                <th><b>HEX CODE</b></th>
+                <th><b>NAME</b></th>
+                <th><b>USE CASE DESCRIPTION</b></th>
+            </tr>
+            <tr>
+                <th><div class="color-block" style="background-color: #000000">#000000</div></th>
+                <th>BLACK</th>
+                <th>This color should only be used as text color for text on a dark background or as an outline color/accent color.</th>
+            </tr>
+            <tr>
+                <th><div class="color-block" style="background-color: #111111">#111111</div></th>
+                <th>DEEP DARK</th>
+                <th>This color should be used as a general accent color when marking something as being different/less important than the main UI.</th>
+            </tr>
+            <tr>
+                <th><div class="color-block" style="background-color: #1e1e1e">#1e1e1e</div></th>
+                <th>BASE DARK</th>
+                <th>This color should be used as the main background color for UI elements.</th>
+            </tr>
+            <tr>
+                <th><div class="color-block" style="background-color: #2b2b2b">#2b2b2b</div></th>
+                <th>LIGHT DARK</th>
+                <th>This color should be used as a transition color or for signalling that a UI element is not in focus.</th>
+            </tr>
+            <tr>
+                <th><div class="color-block" style="background-color: #353535">#353535</div></th>
+                <th>BASE GREY</th>
+                <th>This color should be used as background color for accented or important UI elements.</th>
+            </tr>
+        </table>
+        <br>
+        <h1>Terminal/syntax highlighting colors.</h1>
+        <table>
+            <tr>
+                <th><b>DARKER</b></th>
+                <th><b>BASE<b></th>
+                <th><b>LIGHTER</b></th>
+                <th><b>NAME</b></th>
+                <th><b>USE CASE DESCRIPTION</b></th>
+            </tr>
+            <tr>
+                <th><div class="color-block" style="background-color: #000000">#000000</div></th>
+                <th><div class="color-block" style="background-color: #111111">#111111</div></th>
+                <th><div class="color-block" style="background-color: #1e1e1e">#1e1e1e</div></th>
+                <th>BLACK</th>
+                <th>...</th>
+            </tr>
+            <tr>
+                <th><div class="color-block light" style="background-color: #cc6971">#cc6971</div></th>
+                <th><div class="color-block light" style="background-color: #ff929b">#ff929b</div></th>
+                <th><div class="color-block light" style="background-color: #ffacb3">#ffacb3</div></th>
+                <th>RED</th>
+                <th>...</th>
+            </tr>
+            <tr>
+                <th><div class="color-block light" style="background-color: #98b56e">#98b56e</div></th>
+                <th><div class="color-block light" style="background-color: #c3e88d">#c3e88d</div></th>
+                <th><div class="color-block light" style="background-color: #dbffa5">#dbffa5</div></th>
+                <th>GREEN</th>
+                <th>...</th>
+            </tr>
+            <tr>
+                <th><div class="color-block light" style="background-color: #cca256">#cca256</div></th>
+                <th><div class="color-block light" style="background-color: #ffcb6b">#ffcb6b</div></th>
+                <th><div class="color-block light" style="background-color: #ffdb99">#ffdb99</div></th>
+                <th>YELLOW</th>
+                <th>...</th>
+            </tr>
+            <tr>
+                <th><div class="color-block light" style="background-color: #62a2cc">#62a2cc</div></th>
+                <th><div class="color-block light" style="background-color: #7bcbff">#7bcbff</div></th>
+                <th><div class="color-block light" style="background-color: #9cd8ff">#9cd8ff</div></th>
+                <th>BLUE</th>
+                <th>...</th>
+            </tr>
+            <tr>
+                <th><div class="color-block light" style="background-color: #b28ecc">#b28ecc</div></th>
+                <th><div class="color-block light" style="background-color: #deb2ff">#deb2ff</div></th>
+                <th><div class="color-block light" style="background-color: #e9cbff">#e9cbff</div></th>
+                <th>MAGENTA</th>
+                <th>...</th>
+            </tr>
+            <tr>
+                <th><div class="color-block light" style="background-color: #7db9b5">#7db9b5</div></th>
+                <th><div class="color-block light" style="background-color: #9fece7">#9fece7</div></th>
+                <th><div class="color-block light" style="background-color: #c5fffb">#c5fffb</div></th>
+                <th>CYAN</th>
+                <th>...</th>
+            </tr>
+            <tr>
+                <th><div class="color-block light" style="background-color: #d3d3d3">#d3d3d3</div></th>
+                <th><div class="color-block light" style="background-color: #f0f0f0">#f0f0f0</div></th>
+                <th><div class="color-block light" style="background-color: #ffffff">#ffffff</div></th>
+                <th>WHITE</th>
+                <th>...</th>
+            </tr>
+        </table>
+    </body>
+</html>
